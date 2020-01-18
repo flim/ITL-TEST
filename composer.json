@@ -5,13 +5,22 @@
         "php": "^7.1.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "ext-zip": "^1.13",
+        "ddeboer/data-import": "@stable",
+        "ddeboer/data-import-bundle": "~0.1",
+        "roromix/spreadsheetbundle": "^1.0",
         "symfony/console": "4.4.*",
         "symfony/dotenv": "4.4.*",
+        "symfony/filesystem": "4.4.*",
+        "symfony/finder": "4.4.*",
         "symfony/flex": "^1.3.1",
         "symfony/framework-bundle": "4.4.*",
+        "symfony/orm-pack": "^1.0",
+        "symfony/serializer-pack": "^1.0",
         "symfony/yaml": "4.4.*"
     },
     "require-dev": {
+        "symfony/maker-bundle": "^1.14"
     },
     "config": {
         "preferred-install": {
